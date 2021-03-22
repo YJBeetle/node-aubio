@@ -16,7 +16,7 @@ out how to get aubio for your system.
 Install with `npm`:
 
 ``` bash
-$ npm install aubio
+$ npm install @yjbeetle/aubio
 ```
 
 Or add it to the `"dependencies"` section of your _package.json_ file.

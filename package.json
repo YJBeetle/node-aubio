@@ -1,6 +1,6 @@
 {
-  "name": "aubio",
-  "version": "0.1.0",
+  "name": "@yjbeetle/aubio",
+  "version": "0.1.1",
   "description": "Node.js bindings for aubio",
   "main": "index.js",
   "scripts": {
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/aubio/node-aubio.git"
+    "url": "git+https://github.com/YJBeetle/node-aubio.git"
   },
   "keywords": [
     "audio",
@@ -31,10 +31,8 @@
   ],
   "author": "Gray Leonard",
   "contributors": [
-    {
-      "name": "Paul Brossier",
-      "email": "piem@aubio.org"
-    }
+    "Paul Brossier <piem@aubio.org>",
+    "YJBeetle <YJBeetle@gmail.com>"
   ],
   "license": "GPL-3.0",
   "bugs": {
@@ -44,5 +42,9 @@
   "dependencies": {
     "ffi-napi": "^4.0.3",
     "ref-napi": "^3.0.2"
-  }
+  },
+  "directories": {
+    "example": "examples"
+  },
+  "devDependencies": {}
 }
